@@ -4,12 +4,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-8 h-8 bg-[#8B6946] rounded-full flex items-center justify-center">
-              <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M10 2a1 1 0 011 1v1.323l3.954 1.582 1.599-.8a1 1 0 01.894 1.79l-1.233.616 1.738 5.42a1 1 0 01-.285 1.05A3.989 3.989 0 0115 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.715-5.349L11 6.477V16a1 1 0 11-2 0V6.477L6.237 7.582l1.715 5.349a1 1 0 01-.285 1.05A3.989 3.989 0 015 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.738-5.42-1.233-.617a1 1 0 01.894-1.788l1.599.799L9 4.323V3a1 1 0 011-1z"/>
-              </svg>
+            <div className="w-10 h-10 rounded-full flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path fill="#9c7b5c" d="M248 320L248 138.2C223.5 158.7 208 189.6 208 224L208 320L248 320zM296 320L344 320L344 114.6C336.3 112.9 328.2 112 320 112C311.8 112 303.7 112.9 296 114.6L296 320zM392 138.2L392 320L432 320L432 224C432 189.6 416.5 158.8 392 138.2zM128 320L160 320L160 224C160 135.6 231.6 64 320 64C408.4 64 480 135.6 480 224L480 320L512 320C529.7 320 544 334.3 544 352L544 416C544 433.7 529.7 448 512 448L512 544C512 561.7 497.7 576 480 576C462.3 576 448 561.7 448 544L448 448L192 448L192 544C192 561.7 177.7 576 160 576C142.3 576 128 561.7 128 544L128 448C110.3 448 96 433.7 96 416L96 352C96 334.3 110.3 320 128 320z"/></svg>
             </div>
-            <span className="text-xl font-semibold text-[#2C241A]">Chair</span>
+            <span className="text-2xl font-semibold text-[#2C241A]">Chair</span>
           </div>
           <p className="text-[#5A4A3A] text-sm">
             Sculptural furniture for modern living. Designed with conscience, built to last.
